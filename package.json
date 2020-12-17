@@ -1,0 +1,26 @@
+{
+  "name": "weather-journal-app",
+  "version": "1.0.0",
+  "description": "This project requires you to create an asynchronous web app that uses Web API and user data to dynamically update the UI. \r ## Node\r In this project we use Node and Express environemnts that should be installed first. The project file server.js should require express(), and should create an instance of their app using express.\r The Express app instance should be pointed to the project folder with .html, .css, and .js files.\r ## Dependencies\r cors package should be installed and using an instance from it.\r body-parser should be installed.\r ## Local server\r Local server should be running and producing feedback to the Command Line through a working callback function.\r ##API\r Create API credentials on OpenWeatherMap.com.",
+  "main": "server.js",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "express": "^4.17.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RanaMohamed9/Weather.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/RanaMohamed9/Weather/issues"
+  },
+  "homepage": "https://github.com/RanaMohamed9/Weather#readme"
+}

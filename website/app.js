@@ -1,5 +1,5 @@
 /* Global Variables */
-const apiKey = '&units=e2cdfdfc897e6e6d5a2501a2a1ae4b61';
+const apiKey = 'e2cdfdfc897e6e6d5a2501a2a1ae4b61&units=imperial';
 const apiURL = 'api.openweathermap.org/data/2.5/weather?'
 const Datee = document.getElementById('date');
 const Temp = document.getElementById('temp');
